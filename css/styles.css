@@ -23,7 +23,28 @@ body{
 .list{
     list-style: none;
 }
+img {
+    display: block;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.container-header {
+    display: flex;
+    width: 1440px;
+  
+   
+}
+/* header */
 .logo {
+
  font-family: 'Raleway',sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -65,7 +86,7 @@ color:var(--contact-text-color);
 .contact-link:focus{
     color:var(--accent-color);
 }
-
+/* section 1 */
 .hero {
    background-color: var(--bg-hero);
 }
@@ -91,7 +112,7 @@ cursor: pointer;
 .hero-btn:focus{
     background-color: var(--accent-color);
 }
-
+/* section 2 */
 .feature-title {
     font-weight: 500;
 font-size: 20px;
@@ -102,14 +123,18 @@ color:var(--secondary-text-color);
 
 }
 .feature-text {
- 
+    width: 264px;
+
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--primary-text-color);
 
 }
+/* section 3 */
 .section-title{
+
+
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -120,6 +145,8 @@ text-transform: capitalize;
 color:var(--secondary-text-color);
 
 }
+
+/* section 4 */
 .team{
     background-color: var(--bg-team);
 
@@ -147,7 +174,7 @@ color: var(--primary-text-color);
 .team-item{
     background-color: var(--bg-color);
 }
-
+/* footer */
 .footer {
     background-color: var(--bg-hero);
 }
@@ -161,6 +188,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:var(--logo-footer);
 }
+
+/* portfolio */
 .portfolio-btn{
     font-family: 'Roboto',sans-serif;
 font-style: normal;
