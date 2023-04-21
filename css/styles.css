@@ -36,6 +36,10 @@ p {
     margin-bottom: 0;
 
 }
+.section {
+    display: flex;
+    flex-direction: row;
+}
 .container-header {
     display: flex;
     width: 1440px;
