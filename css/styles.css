@@ -253,13 +253,19 @@ color: var(--primary-text-color);
 }
 /* footer */
 .footer {
+   padding: 100px 0;
     background-color: var(--bg-hero);
 }
 
 .logo-footer {
     color: var(--logo-footer);
 }
+.logo-footer-bock{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-desc { 
+    max-width: 264px;
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
