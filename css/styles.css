@@ -213,9 +213,22 @@ color:var(--secondary-text-color);
 .team{
     padding: 120px 0;
     background-color: var(--bg-team);
-
+}
+.team-list{
+    display: flex;
+   gap: 24px;
+}
+.team-item{
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px;
+     
+}
+.team-item-content{
+    padding: 32px 16px;
+  
 }
 .team-title {
+    margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
