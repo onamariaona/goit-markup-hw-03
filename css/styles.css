@@ -154,8 +154,19 @@ cursor: pointer;
     background-color: var(--accent-color);
 }
 /* section 2 */
+.feature{
+    padding: 120px 0;
+}
+.feature-list{
+    display: flex;
+gap: 24px;
+}
+.feature-item{
+    width: calc((100% - 72px) / 4);
+}
 .feature-title {
-
+ margin-bottom: 8px;
+ 
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
