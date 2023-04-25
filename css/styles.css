@@ -206,10 +206,12 @@ color:var(--secondary-text-color);
 }
 .doing-item{
     width: calc((100% - 48px) / 3);
+
 }
 
 /* section 4 */
 .team{
+    padding: 120px 0;
     background-color: var(--bg-team);
 
 }
